@@ -216,7 +216,7 @@ if len(df) > 1:
             st.write(f"• {badge}: {count} companies ({percentage:.1f}%)")
     
     with insight_col2:
-        st.markdown("**Component Analysis:**")
+        st.markdown("**Average ESG:**")
         env_avg = df["Environmental Risk"].mean()
         soc_avg = df["Social Risk"].mean()
         gov_avg = df["Governance Risk"].mean()
